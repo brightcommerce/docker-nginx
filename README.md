@@ -50,8 +50,7 @@ This image uses volumes and environment variables to control the nginx server co
 * `/etc/nginx/sites-available`: Site configurations
 * `/usr/share/nginx/html`: HTML for the default site, and 
 * `/etc/nginx/conf.d`: Change sites configurations using it.
-* `/var/log/nginx`: Access log from the container using it.
-* `/srv`: Add your app source code here.
+* `/var/log/nginx`: Access log from here.
 
 Pass with `-v` docker option. Don't forget to use absolute path here.
 
